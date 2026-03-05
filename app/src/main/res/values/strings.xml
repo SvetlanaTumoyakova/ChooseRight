@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ChooseRight</string>
     <string name="start">Начать</string>
+    <string name="Back">Назад</string>
 </resources>
