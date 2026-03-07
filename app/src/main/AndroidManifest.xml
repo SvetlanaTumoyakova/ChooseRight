@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChooseRight">
         <activity
+            android:name=".Level1"
+            android:exported="false"
+            android:screenOrientation="behind"
+            tools:ignore="DiscourageApi"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="behind"
@@ -32,4 +37,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
