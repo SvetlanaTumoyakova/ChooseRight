@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black_opacity">#85000000</color>
     <color name="black_middle">#60000000</color>
+    <color name="orange">#FFFB8904</color>
+    <color name="soft_green">#FFDFFD9B</color>
+    <color name="soft_green_opacity">#85DFFD9B</color>
 </resources>
