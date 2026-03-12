@@ -3,4 +3,7 @@
     <string name="start">Начать</string>
     <string name="Back">Назад</string>
     <string name="level">Уровень:</string>
+    <string name="level_one">Кто живёт в лесу?</string>
+    <string name="warning">Обратите внимание: в рамках этого задания некоторые изображения могут повторяться</string>
+    <string name="text_continue">Продолжить</string>
 </resources>

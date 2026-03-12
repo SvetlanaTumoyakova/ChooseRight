@@ -145,22 +145,51 @@
                     android:id="@+id/img_left"
                     android:layout_width="match_parent"
                     android:layout_height="320dp"
-                    android:layout_weight="1"
                     android:layout_marginEnd="5dp"
-                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
                     android:background="@drawable/style_img_universal"
+                    android:scaleType="centerCrop"
                     app:srcCompat="@drawable/imgtest" />
 
                 <ImageView
                     android:id="@+id/img_right"
                     android:layout_width="match_parent"
                     android:layout_height="320dp"
-                    android:layout_weight="1"
                     android:layout_marginStart="5dp"
-                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
                     android:background="@drawable/style_img_universal"
+                    android:scaleType="centerCrop"
                     app:srcCompat="@drawable/imgtest" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:textSize="30sp"
+                    android:layout_marginEnd="5dp"
+                    android:text="TextLeft" />
+
+                <TextView
+                    android:id="@+id/textRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:textSize="30sp"
+                    android:layout_marginStart="5dp"
+                    android:text="TextRight" />
             </LinearLayout>
 
         </LinearLayout>
